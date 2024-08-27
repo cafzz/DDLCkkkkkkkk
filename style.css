@@ -47,8 +47,8 @@ button:hover {
     display: none;
     margin-top: 20px;
     padding: 15px;
-    background-color: #ffffff;
-    border: 1px solid #ddd;
+    background-color: #ffbed7;
+    border: 1px solid #000000;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -67,7 +67,7 @@ img {
 
 /* Estilização dos títulos */
 h1, h2, h3 {
-    color: #333;
+    color: #ff51a8;
     margin-bottom: 10px;
 }
 
