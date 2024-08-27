@@ -1,0 +1,81 @@
+/* Estilização básica do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Estilização do cabeçalho */
+header {
+    background-color: #6200ea;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilização do contêiner principal */
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilização dos botões */
+button {
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3700b3;
+}
+
+/* Estilização das seções de informações dos personagens */
+.character-info {
+    display: none;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilização das imagens */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Estilização dos títulos */
+h1, h2, h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+    border-bottom: 2px solid #6200ea;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.25em;
+    margin-bottom: 10px;
+}
