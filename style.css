@@ -1,6 +1,9 @@
 /* Estilização básica do corpo da página */
 body {
-    background: url('bckgr.jpeg') no-repeat center center fixed;
+    background: url('bckgr.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
